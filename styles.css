@@ -1,21 +1,17 @@
-body {
-  background-color: rgb(200, 130, 70);
-}
-
-div {
+.division {
   width: 700px;
   margin: auto;
   font-family: Helvetica Neue;
-  background: #000;
+  background: #fff;
   border: 2px solid black;
   padding: 30px;
-  color: blueviolet;
-  border-radius: 10%;
+  color: black;
+  border-radius: 5%;
 }
 
 h1 {
   text-align: center;
-  color: aqua;
+  color: black;
   font-size: 70px;
   font-family: Helvetica;
   text-decoration: underline;
@@ -41,8 +37,20 @@ img {
 }
 
 #body-background {
-  background-image: url(https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/5%20Best%20Coding%20Programs%20for%20Aspiring%20Programmers1650304687858345.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsnPrnr2ybgZ0qb3PJhAP0iLIv7pjZnjO2A&s);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: black;
 }
+
+
+button {
+  height: 50px;
+  width: fit-content;
+  background-color: black;
+  color: aqua;
+  border-radius: 10px;
+}
+
+
