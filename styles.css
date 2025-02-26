@@ -1,26 +1,33 @@
 .division {
-  width: 700px;
-  margin: auto;
-  font-family: Helvetica Neue;
-  background: #fff;
-  border: 2px solid black;
-  padding: 30px;
-  color: black;
-  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  padding:20px ;
+  width: auto;
+  text-align:center;
+  color:black;
+  /* background-color: white; */
+  border-radius: 5px;
+  background-image: url(https://media.gettyimages.com/id/1398763134/video/gray-color-loopable-4k-gradient-background.jpg?s=640x640&k=20&c=B8p9jTO8-SrTR8WHCdli9bP-_IE2wEVsy7Wf-iuxsSI=);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 20px solid black;
+  margin-bottom: 50px;
 }
 
-h1 {
-  text-align: center;
-  color: black;
-  font-size: 70px;
-  font-family: Helvetica;
-  text-decoration: underline;
+.heading {
+  text-align: left;
+  color: burlywood;
+  font-size: 120px;
+  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+  padding-left: 5px;
+  margin-bottom: 150px;
 }
 
 h2 {
-  text-decoration: underline;
-  font-size: 40px;
-  font-family: Helvetica;
+  /* text-align: left; */
+  font-size: 60px;
+  font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
 }
 
 p {
@@ -37,13 +44,12 @@ img {
 }
 
 #body-background {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsnPrnr2ybgZ0qb3PJhAP0iLIv7pjZnjO2A&s);
+  background-image: url(https://cdn.create.vista.com/api/media/small/199913442/stock-photo-blackboard-texture-background-dark-wall-backdrop-wallpaper-dark-tone);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: black;
+  background-color: #1e2d12;
 }
-
 
 button {
   height: 50px;
