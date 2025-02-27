@@ -1,27 +1,38 @@
 .division {
   display: flex;
   flex-direction: column;
-  padding:20px ;
-  width: auto;
+  padding:10px ;
+  width: 500px;
   text-align:center;
   color:black;
   /* background-color: white; */
   border-radius: 5px;
-  background-image: url(https://media.gettyimages.com/id/1398763134/video/gray-color-loopable-4k-gradient-background.jpg?s=640x640&k=20&c=B8p9jTO8-SrTR8WHCdli9bP-_IE2wEVsy7Wf-iuxsSI=);
+  background-image: url(./images/Div-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border: 20px solid black;
-  margin-bottom: 50px;
+  /* border: 20px solid black; */
+  margin: 50px;
+}
+
+.division:hover{
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+  cursor: pointer;
 }
 
 .heading {
   text-align: left;
   color: burlywood;
-  font-size: 120px;
+  font-size: 100px;
   font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
   padding-left: 5px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+ background-color: white;
 }
 
 h2 {
@@ -44,7 +55,7 @@ img {
 }
 
 #body-background {
-  background-image: url(https://cdn.create.vista.com/api/media/small/199913442/stock-photo-blackboard-texture-background-dark-wall-backdrop-wallpaper-dark-tone);
+  background-image: url(./images/Body-background.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
