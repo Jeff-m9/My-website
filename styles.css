@@ -29,7 +29,7 @@
 
 .heading-left {
   text-align: left;
-  color: burlywood;
+  color: rgba(179, 255, 0, 0.616);
   font-size: 100px;
   font-family: 'Playfair Display','sans serif';
   padding-left: 5px;
@@ -39,7 +39,7 @@
 
 .heading-right {
   text-align: left;
-  color: burlywood;
+  color: rgba(179, 255, 0, 0.616);
   font-size: 50px;
   font-family: 'Playfair Display','sans serif';
   padding-left: 5px;
@@ -84,11 +84,12 @@ img {
 
 button {
   height: 50px;
-  width: fit-content;
-  background-color: black;
-  color: aqua;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.281);
+  color: rgba(179, 255, 0, 0.616);
   border-radius: 10px;
   font-family: 'Playfair Display','sans serif';
+  font-size: 30px;
 }
 
 
